@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74D2D20519FB12B5009CB590 /* HydraLabsFacebookHackathon-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HydraLabsFacebookHackathon-Bridging-Header.h"; sourceTree = "<group>"; };
 		74E1803C19FAF06000F13037 /* HydraLabsFacebookHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydraLabsFacebookHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E1804019FAF06000F13037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74E1804119FAF06000F13037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 				74E1804B19FAF06000F13037 /* Images.xcassets */,
 				74E1804D19FAF06000F13037 /* LaunchScreen.xib */,
 				74E1804319FAF06000F13037 /* HydraLabsFacebookHackathon.xcdatamodeld */,
+				74D2D20519FB12B5009CB590 /* HydraLabsFacebookHackathon-Bridging-Header.h */,
 				74E1803F19FAF06000F13037 /* Supporting Files */,
 			);
 			path = HydraLabsFacebookHackathon;
@@ -344,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -351,6 +354,8 @@
 				INFOPLIST_FILE = HydraLabsFacebookHackathon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HydraLabsFacebookHackathon/HydraLabsFacebookHackathon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -358,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -365,6 +371,7 @@
 				INFOPLIST_FILE = HydraLabsFacebookHackathon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HydraLabsFacebookHackathon/HydraLabsFacebookHackathon-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -421,6 +428,7 @@
 				74E1806019FAF06100F13037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74E1806119FAF06100F13037 /* Build configuration list for PBXNativeTarget "HydraLabsFacebookHackathonTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +437,7 @@
 				74E1806319FAF06100F13037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
