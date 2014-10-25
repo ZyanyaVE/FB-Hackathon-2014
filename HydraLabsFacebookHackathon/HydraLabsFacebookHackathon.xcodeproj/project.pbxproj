@@ -16,6 +16,7 @@
 		745D384C19FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D384B19FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.swift */; };
 		745D385619FB288B00CD2931 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745D385519FB288B00CD2931 /* FacebookSDK.framework */; };
 		745D385C19FB2D9600CD2931 /* backgroundhome.png in Resources */ = {isa = PBXBuildFile; fileRef = 745D385B19FB2D9600CD2931 /* backgroundhome.png */; };
+		74E6072119FB54ED00692BC9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E6072019FB54ED00692BC9 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		745D385519FB288B00CD2931 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		745D385719FB295600CD2931 /* HydraLabsFacebookHackathon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HydraLabsFacebookHackathon-Bridging-Header.h"; sourceTree = "<group>"; };
 		745D385B19FB2D9600CD2931 /* backgroundhome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundhome.png; sourceTree = "<group>"; };
+		74E6072019FB54ED00692BC9 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				745D383219FB27EB00CD2931 /* AppDelegate.swift */,
 				745D383719FB27EB00CD2931 /* ViewController.swift */,
+				74E6072019FB54ED00692BC9 /* SecondView.swift */,
 				745D383919FB27EB00CD2931 /* Main.storyboard */,
 				745D383C19FB27EB00CD2931 /* Images.xcassets */,
 				745D383E19FB27EB00CD2931 /* LaunchScreen.xib */,
@@ -235,6 +238,7 @@
 			files = (
 				745D383819FB27EB00CD2931 /* ViewController.swift in Sources */,
 				745D383619FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodeld in Sources */,
+				74E6072119FB54ED00692BC9 /* SecondView.swift in Sources */,
 				745D383319FB27EB00CD2931 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +444,7 @@
 				745D385119FB27EB00CD2931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		745D385219FB27EB00CD2931 /* Build configuration list for PBXNativeTarget "HydraLabsFacebookHackathonTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +453,7 @@
 				745D385419FB27EB00CD2931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
