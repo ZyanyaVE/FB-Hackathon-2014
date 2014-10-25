@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		745D383319FB27EB00CD2931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D383219FB27EB00CD2931 /* AppDelegate.swift */; };
+		745D383619FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 745D383419FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodeld */; };
+		745D383819FB27EB00CD2931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D383719FB27EB00CD2931 /* ViewController.swift */; };
+		745D383B19FB27EB00CD2931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745D383919FB27EB00CD2931 /* Main.storyboard */; };
+		745D383D19FB27EB00CD2931 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745D383C19FB27EB00CD2931 /* Images.xcassets */; };
+		745D384019FB27EB00CD2931 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 745D383E19FB27EB00CD2931 /* LaunchScreen.xib */; };
+		745D384C19FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D384B19FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.swift */; };
+		745D385619FB288B00CD2931 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745D385519FB288B00CD2931 /* FacebookSDK.framework */; };
+		745D385C19FB2D9600CD2931 /* backgroundhome.png in Resources */ = {isa = PBXBuildFile; fileRef = 745D385B19FB2D9600CD2931 /* backgroundhome.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		745D384619FB27EB00CD2931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 745D382519FB27EA00CD2931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745D382C19FB27EB00CD2931;
+			remoteInfo = HydraLabsFacebookHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		745D382D19FB27EB00CD2931 /* HydraLabsFacebookHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydraLabsFacebookHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		745D383119FB27EB00CD2931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745D383219FB27EB00CD2931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		745D383519FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HydraLabsFacebookHackathon.xcdatamodel; sourceTree = "<group>"; };
+		745D383719FB27EB00CD2931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		745D383A19FB27EB00CD2931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		745D383C19FB27EB00CD2931 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		745D383F19FB27EB00CD2931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		745D384519FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydraLabsFacebookHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		745D384A19FB27EB00CD2931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745D384B19FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydraLabsFacebookHackathonTests.swift; sourceTree = "<group>"; };
+		745D385519FB288B00CD2931 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		745D385719FB295600CD2931 /* HydraLabsFacebookHackathon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HydraLabsFacebookHackathon-Bridging-Header.h"; sourceTree = "<group>"; };
+		745D385B19FB2D9600CD2931 /* backgroundhome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundhome.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		745D382A19FB27EB00CD2931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745D385619FB288B00CD2931 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745D384219FB27EB00CD2931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745D382419FB27EA00CD2931 = {
+			isa = PBXGroup;
+			children = (
+				745D382F19FB27EB00CD2931 /* HydraLabsFacebookHackathon */,
+				745D384819FB27EB00CD2931 /* HydraLabsFacebookHackathonTests */,
+				745D382E19FB27EB00CD2931 /* Products */,
+				745D385519FB288B00CD2931 /* FacebookSDK.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		745D382E19FB27EB00CD2931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745D382D19FB27EB00CD2931 /* HydraLabsFacebookHackathon.app */,
+				745D384519FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		745D382F19FB27EB00CD2931 /* HydraLabsFacebookHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				745D383219FB27EB00CD2931 /* AppDelegate.swift */,
+				745D383719FB27EB00CD2931 /* ViewController.swift */,
+				745D383919FB27EB00CD2931 /* Main.storyboard */,
+				745D383C19FB27EB00CD2931 /* Images.xcassets */,
+				745D383E19FB27EB00CD2931 /* LaunchScreen.xib */,
+				745D385A19FB2D8700CD2931 /* Images */,
+				745D383419FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodeld */,
+				745D383019FB27EB00CD2931 /* Supporting Files */,
+				745D385719FB295600CD2931 /* HydraLabsFacebookHackathon-Bridging-Header.h */,
+			);
+			path = HydraLabsFacebookHackathon;
+			sourceTree = "<group>";
+		};
+		745D383019FB27EB00CD2931 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				745D383119FB27EB00CD2931 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		745D384819FB27EB00CD2931 /* HydraLabsFacebookHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				745D384B19FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.swift */,
+				745D384919FB27EB00CD2931 /* Supporting Files */,
+			);
+			path = HydraLabsFacebookHackathonTests;
+			sourceTree = "<group>";
+		};
+		745D384919FB27EB00CD2931 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				745D384A19FB27EB00CD2931 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		745D385A19FB2D8700CD2931 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				745D385B19FB2D9600CD2931 /* backgroundhome.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		745D382C19FB27EB00CD2931 /* HydraLabsFacebookHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745D384F19FB27EB00CD2931 /* Build configuration list for PBXNativeTarget "HydraLabsFacebookHackathon" */;
+			buildPhases = (
+				745D382919FB27EB00CD2931 /* Sources */,
+				745D382A19FB27EB00CD2931 /* Frameworks */,
+				745D382B19FB27EB00CD2931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydraLabsFacebookHackathon;
+			productName = HydraLabsFacebookHackathon;
+			productReference = 745D382D19FB27EB00CD2931 /* HydraLabsFacebookHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		745D384419FB27EB00CD2931 /* HydraLabsFacebookHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745D385219FB27EB00CD2931 /* Build configuration list for PBXNativeTarget "HydraLabsFacebookHackathonTests" */;
+			buildPhases = (
+				745D384119FB27EB00CD2931 /* Sources */,
+				745D384219FB27EB00CD2931 /* Frameworks */,
+				745D384319FB27EB00CD2931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745D384719FB27EB00CD2931 /* PBXTargetDependency */,
+			);
+			name = HydraLabsFacebookHackathonTests;
+			productName = HydraLabsFacebookHackathonTests;
+			productReference = 745D384519FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745D382519FB27EA00CD2931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = HydraLabs;
+				TargetAttributes = {
+					745D382C19FB27EB00CD2931 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					745D384419FB27EB00CD2931 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 745D382C19FB27EB00CD2931;
+					};
+				};
+			};
+			buildConfigurationList = 745D382819FB27EA00CD2931 /* Build configuration list for PBXProject "HydraLabsFacebookHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 745D382419FB27EA00CD2931;
+			productRefGroup = 745D382E19FB27EB00CD2931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				745D382C19FB27EB00CD2931 /* HydraLabsFacebookHackathon */,
+				745D384419FB27EB00CD2931 /* HydraLabsFacebookHackathonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		745D382B19FB27EB00CD2931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745D383B19FB27EB00CD2931 /* Main.storyboard in Resources */,
+				745D384019FB27EB00CD2931 /* LaunchScreen.xib in Resources */,
+				745D385C19FB2D9600CD2931 /* backgroundhome.png in Resources */,
+				745D383D19FB27EB00CD2931 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745D384319FB27EB00CD2931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745D382919FB27EB00CD2931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745D383819FB27EB00CD2931 /* ViewController.swift in Sources */,
+				745D383619FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodeld in Sources */,
+				745D383319FB27EB00CD2931 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745D384119FB27EB00CD2931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745D384C19FB27EB00CD2931 /* HydraLabsFacebookHackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		745D384719FB27EB00CD2931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 745D382C19FB27EB00CD2931 /* HydraLabsFacebookHackathon */;
+			targetProxy = 745D384619FB27EB00CD2931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		745D383919FB27EB00CD2931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745D383A19FB27EB00CD2931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		745D383E19FB27EB00CD2931 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745D383F19FB27EB00CD2931 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		745D384D19FB27EB00CD2931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		745D384E19FB27EB00CD2931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		745D385019FB27EB00CD2931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HydraLabsFacebookHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HydraLabsFacebookHackathon/HydraLabsFacebookHackathon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		745D385119FB27EB00CD2931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HydraLabsFacebookHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HydraLabsFacebookHackathon/HydraLabsFacebookHackathon-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		745D385319FB27EB00CD2931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HydraLabsFacebookHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydraLabsFacebookHackathon.app/HydraLabsFacebookHackathon";
+			};
+			name = Debug;
+		};
+		745D385419FB27EB00CD2931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HydraLabsFacebookHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydraLabsFacebookHackathon.app/HydraLabsFacebookHackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		745D382819FB27EA00CD2931 /* Build configuration list for PBXProject "HydraLabsFacebookHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745D384D19FB27EB00CD2931 /* Debug */,
+				745D384E19FB27EB00CD2931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745D384F19FB27EB00CD2931 /* Build configuration list for PBXNativeTarget "HydraLabsFacebookHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745D385019FB27EB00CD2931 /* Debug */,
+				745D385119FB27EB00CD2931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		745D385219FB27EB00CD2931 /* Build configuration list for PBXNativeTarget "HydraLabsFacebookHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745D385319FB27EB00CD2931 /* Debug */,
+				745D385419FB27EB00CD2931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		745D383419FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				745D383519FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodel */,
+			);
+			currentVersion = 745D383519FB27EB00CD2931 /* HydraLabsFacebookHackathon.xcdatamodel */;
+			path = HydraLabsFacebookHackathon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 745D382519FB27EA00CD2931 /* Project object */;
+}
