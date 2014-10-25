@@ -12,6 +12,8 @@ class ViewController: UIViewController, FBLoginViewDelegate {
     
     @IBOutlet var fbLoginView : FBLoginView!
     
+    @IBOutlet var botonFb: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -32,6 +34,14 @@ class ViewController: UIViewController, FBLoginViewDelegate {
     func loginViewShowingLoggedInUser(loginView : FBLoginView!) {
         println("User Logged In")
         println("This is where you perform a segue.")
+        
+        if(FBSession.activeSession().isOpen){
+            println("Session is Active")
+            
+            //let HomeView = self.storyboard?.instantiateViewControllerWithIdentifier("HomeView") as ViewController
+            //self.navigationController?.pushViewController(HomeView, animated: true)
+        }
+        
     }
     
     func loginViewFetchedUserInfo(loginView : FBLoginView!, user: FBGraphUser){
